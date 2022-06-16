@@ -1,0 +1,46 @@
+/* Global style of bostorek website */
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+:root {
+  --primary: #0c0c0c;
+  --secondary: #44b89d;
+  --gray: #f5f6f9;
+  --white: #ffffff;
+}
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+}
+h2 {
+  font-size: 46px;
+  line-height: 54px;
+}
+h3 {
+  font-size: 36px;
+  line-height: 44px;
+}
+h4 {
+  font-size: 20px;
+}
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+body {
+  width: 90%;
+  margin: 0 auto;
+  color: var(--primary);
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.container {
+  padding: 0 5rem;
+}
