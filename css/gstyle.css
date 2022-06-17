@@ -1,5 +1,5 @@
 /* Global style of bostorek website */
-/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
 
 * {
@@ -11,6 +11,7 @@
 :root {
   --primary: #0c0c0c;
   --secondary: #44b89d;
+  --third: #063547;
   --gray: #f5f6f9;
   --white: #ffffff;
 }
@@ -34,13 +35,17 @@ h6 {
   font-size: 12px;
 }
 body {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
   color: var(--primary);
   font-size: 1rem;
   line-height: 1.5;
   font-weight: 400;
 }
 .container {
-  padding: 0 5rem;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+.section-p1 {
+  padding: 1.2rem 0;
 }

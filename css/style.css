@@ -1,2 +1,3 @@
 /* Call all page's style files to connect all style in one file*/
 @import url("gstyle.css");
+@import url("index.css");

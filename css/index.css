@@ -1,0 +1,62 @@
+/* index Home page css file */
+#header {
+  background-color: var(--third);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--white);
+  transition: all .3s ease;
+}
+#header .logo span {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--secondary);
+}
+nav #navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav #navbar li {
+  list-style: none;
+  padding: 0 15px;
+  font-size: 1.1rem;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+nav #navbar li a:hover,
+nav #navbar li a.active {
+  color: var(--secondary);
+}
+nav #navbar li form input {
+  width: 300px;
+  outline: none;
+  border: none;
+  padding: 12px 20px;
+  font-size: 14px;
+  border-radius: 20px;
+}
+nav #navbar i {
+  font-size: 15px;
+  align-items: center;
+}
+nav #navbar li form {
+  position: relative;
+}
+
+nav #navbar li form button {
+  outline: none;
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: var(--secondary);
+  color: var(--white);
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
