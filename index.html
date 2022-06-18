@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bostorek</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
-    <header id="header" class="section-p1">
-        <a class="container logo" href="index.html"><span>Bostorek</span></a>
-        <nav id="navigation" class="container">
+    <header id="header" class="tb-p-15">
+        <div id="header-box" class="container">
+            <a class="logo" href="index.html"><span>Bostorek</span></a>
             <ul id="navbar">
                 <li><a class="active" href="home.html">home</a></li>
                 <li><a href="about.html">about</a></li>
@@ -31,13 +31,30 @@
                 </li>
                 <a id="close" href="#"><i class="far fa-times"></i></a>
             </ul>
-        </nav>
-        <div id="mobile">
-            <i id="bar" class="far fa-stream"></i>
-        </div>
+            <div id="mobile">
+                <i id="bar" class="far fa-stream"></i>
+            </div>
         </div>
     </header>
-
+    <section id="hero" class="tb-p-80">
+        <div class="hero-container container">
+            <div class="hero-info">
+                <h5> Bostorek Bookstore </h5>
+                <h1>For All Your <br> Reading Needs</h1>
+                <p class="tb-p-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit.quam velit <br> saepe
+                    dolorem deserunt quo
+                    quidem ad optio.</p>
+                <a href="index.html" class="btn-normal">read more</a>
+            </div>
+            <div class="hero-img">
+                <img src="/img/slider-img.png" alt="">
+            </div>
+        </div>
+        <div class="carousel_btn_box">
+            <a class="crbtn" href="#"><i class="far fa-angle-left"></i></a>
+            <a class="crbtn" href="#"><i class="far fa-angle-right"></i></a>
+        </div>
+    </section>
     <script src="js/main.js"></script>
 </body>
 
