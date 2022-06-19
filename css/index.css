@@ -267,4 +267,8 @@
   #hero .hero-container .hero-img {
     width: 100%;
   }
+  /* categories */
+  #categories .cat-box {
+    width: 100%;
+  }
 }
