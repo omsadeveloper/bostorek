@@ -157,7 +157,8 @@
   text-align: center;
 }
 #categories h2,
-#about h2 {
+#about h2,
+#costumer h2 {
   font-size: 2rem;
   font-weight: 700;
   text-transform: capitalize;
@@ -176,8 +177,8 @@
   padding: 20px 0;
 }
 #categories .img-box {
-  width: 120px;
-  height: 120px;
+  width: 125px;
+  height: 125px;
   border-radius: 50%;
   background-color: var(--gray);
   display: flex;
@@ -228,6 +229,70 @@
   transition: all 0.3s ease;
 }
 
+/* costumer section */
+#costumer {
+  text-align: center;
+}
+#costumer .ct-box-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#costumer .ct-box {
+  width: 50%;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+#costumer .ct-box:nth-child(3) {
+  margin-left: 25%;
+}
+#costumer .box-des {
+  width: 95%;
+  text-align: left;
+  background-color: var(--third);
+  padding: 2rem 1.3rem;
+  border-radius: 1.25rem;
+  margin-bottom: 2rem;
+}
+#costumer .box-des p {
+  color: var(--white);
+  margin-bottom: 15px;
+}
+#costumer .box-des i {
+  font-size: 25px;
+  color: var(--secondary);
+}
+#costumer .client-box {
+  display: flex;
+  align-items: center;
+}
+#costumer .cl-img {
+  width: 125px;
+  height: 125px;
+  position: relative;
+}
+#costumer .cl-img img {
+  width: 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* margin-bottom: 20px; */
+}
+#costumer .cl-desc {
+  padding-left: 1rem;
+}
+#costumer .cl-desc h5 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+#costumer .cl-desc h6 {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
 /******************************************* Start Media Query *********************************************/
 /*###########Responsive on Tablet#########*/
 @media (max-width: 899px) {
