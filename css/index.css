@@ -2,16 +2,17 @@
 /* ***********Hearder Section************ */
 #header {
   background-color: var(--third);
+  box-shadow: 0 5px 15px var(--Shadow1);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 #header-box {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  position: sticky;
-  z-index: 999;
-  top: 0;
-  left: 0;
 }
 #header a {
   text-decoration: none;
