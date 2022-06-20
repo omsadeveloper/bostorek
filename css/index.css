@@ -306,4 +306,22 @@
   #categories .cat-box p {
     padding: 0 1rem;
   }
+
+  /*about section*/
+  #about .about-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #about .about-img {
+    width: 100%;
+  }
+  #about .about-details {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  #about h2 {
+    font-size: 1.6rem;
+  }
 }
