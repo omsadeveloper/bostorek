@@ -158,7 +158,8 @@
 }
 #categories h2,
 #about h2,
-#costumer h2 {
+#costumer h2,
+#blog h2 {
   font-size: 2rem;
   font-weight: 700;
   text-transform: capitalize;
@@ -285,7 +286,8 @@
 #costumer .cl-desc {
   padding-left: 1rem;
 }
-#costumer .cl-desc h5 {
+#costumer .cl-desc h5,
+#blog h5 {
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 5px;
@@ -294,6 +296,49 @@
   font-size: 1.1rem;
   font-weight: 400;
 }
+/* blog section */
+#blog {
+  background-color: var(--gray);
+}
+#blog h2 {
+  text-align: center;
+}
+#blog .blog-container {
+  display: flex;
+  justify-content: space-between;
+}
+#blog .blog-box {
+  width: 49%;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+}
+#blog .blog-img {
+  position: relative;
+}
+#blog .blog-img h4 {
+  display: inline-block;
+  background-color: var(--third);
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 3px solid var(--white);
+  position: absolute;
+  bottom: -16px;
+  left: 25px;
+}
+#blog .blog-img img {
+  width: 100%;
+}
+#blog .blog-details {
+  padding: 2rem;
+}
+#blog .blog-details p {
+  margin-bottom: 15px;
+}
+#blog .blog-details a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
 /******************************************* Start Media Query *********************************************/
 /*###########Responsive on Tablet#########*/
 @media (max-width: 899px) {
@@ -398,5 +443,16 @@
   }
   #costumer .ct-box:nth-child(3) {
     margin-left: 0;
+  }
+  /* blog section */
+  #blog .blog-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #blog .blog-box {
+    width: 90%;
+    margin: 1.5rem 2rem;
   }
 }
