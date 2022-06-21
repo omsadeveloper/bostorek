@@ -346,6 +346,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 #contact h2 {
   padding-left: 5px;
@@ -443,6 +444,10 @@
     line-height: 58px;
     margin-bottom: 25x;
   }
+  /* contact section */
+  #contact {
+    padding: 2rem 1rem;
+  }
 }
 
 /*###########Responsive on Mobile#########*/
@@ -505,5 +510,16 @@
   #blog .blog-box {
     width: 90%;
     margin: 1.5rem 2rem;
+  }
+  /* contact section */
+  #contact {
+    justify-content: center;
+  }
+  #contact .msg-send {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  #contact .cont-img {
+    width: 100%;
   }
 }
