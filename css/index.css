@@ -160,7 +160,8 @@
 #categories h2,
 #about h2,
 #costumer h2,
-#blog h2 {
+#blog h2,
+#contact h2 {
   font-size: 2rem;
   font-weight: 700;
   text-transform: capitalize;
@@ -340,6 +341,55 @@
   color: var(--secondary);
 }
 
+/* contact section */
+#contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#contact h2 {
+  padding-left: 5px;
+  margin-bottom: 40px;
+}
+#contact input,
+#contact textarea,
+#contact button {
+  display: inline-block;
+  width: 100%;
+}
+#contact input,
+#contact textarea {
+  margin-bottom: 1.5rem;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  padding: 1rem 0.8rem;
+  background-color: var(--gray2);
+  resize: none;
+  font-size: 1.1rem;
+}
+#contact button {
+  padding: 0.8rem 0;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+#contact button:hover {
+  background-color: var(--white);
+  color: var(--secondary);
+}
+#contact .msg-send {
+  width: 50%;
+}
+
+#contact .cont-img {
+  width: 50%;
+  padding: 2rem;
+}
+#contact .cont-img img {
+  width: 100%;
+}
 /******************************************* Start Media Query *********************************************/
 /*###########Responsive on Tablet#########*/
 @media (max-width: 899px) {
