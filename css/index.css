@@ -391,6 +391,98 @@
 #contact .cont-img img {
   width: 100%;
 }
+/* footer section */
+#foot {
+  background-color: var(--third);
+  color: var(--white);
+  /* padding: 4rem 0 2rem 0; */
+  padding-top: 60px;
+}
+#foot .foot-container {
+  display: flex;
+  justify-content: space-between;
+}
+#foot .col p {
+  margin: 0;
+  padding-bottom: 1.5rem;
+}
+#foot a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--white);
+}
+#foot .social a {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: var(--gray);
+  text-align: center;
+  margin-right: 5px;
+}
+#foot .social i {
+  color: var(--third);
+  transition: all 0.3s ease;
+}
+#foot .social a:hover i {
+  color: var(--secondary);
+}
+#foot .info {
+  display: flex;
+  flex-direction: column;
+}
+#foot .info a {
+  margin-bottom: 12px;
+}
+#foot .info i {
+  margin-right: 4px;
+}
+#foot .col:nth-child(1) {
+  width: 20%;
+}
+#foot .col:nth-child(2) {
+  width: 20%;
+}
+#foot .col:nth-child(3) {
+  width: 20%;
+}
+
+#foot h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+#foot .letter input {
+  width: 100%;
+  display: block;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+  border-radius: 25px;
+  padding: 10px 15px;
+  background-color: var(--gray2);
+  font-size: 1.1rem;
+}
+#foot .letter button {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 10px 15px;
+  border: 1px solid var(--secondary);
+  background-color: var(--secondary);
+  color: var(--white);
+  text-transform: capitalize;
+  text-align: center;
+  border-radius: 25px;
+}
+#foot .copyright {
+  text-align: center;
+  color: var(--primary);
+  background-color: var(--white);
+  padding: 20px 0;
+  margin-top: 30px;
+}
 /******************************************* Start Media Query *********************************************/
 /*###########Responsive on Tablet#########*/
 @media (max-width: 899px) {
