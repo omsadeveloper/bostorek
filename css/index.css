@@ -401,6 +401,7 @@
 #foot .foot-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 #foot .col p {
   margin: 0;
@@ -436,14 +437,14 @@
 #foot .info i {
   margin-right: 4px;
 }
-#foot .col:nth-child(1) {
-  width: 20%;
+#foot .col {
+  width: 24%;
 }
 #foot .col:nth-child(2) {
-  width: 20%;
+  padding-left: 3rem;
 }
-#foot .col:nth-child(3) {
-  width: 20%;
+#foot .col:nth-child(4) {
+  padding-left: 1rem;
 }
 
 #foot h4 {
@@ -480,8 +481,7 @@
   text-align: center;
   color: var(--primary);
   background-color: var(--white);
-  padding: 20px 0;
-  margin-top: 30px;
+  padding: 1.6rem 0;
 }
 /******************************************* Start Media Query *********************************************/
 /*###########Responsive on Tablet#########*/
@@ -539,6 +539,15 @@
   /* contact section */
   #contact {
     padding: 2rem 1rem;
+  }
+  /*footer section*/
+
+  #foot .col {
+    width: 50%;
+    margin-bottom: 2rem;
+  }
+  #foot .col:nth-child(4) {
+    padding-left: 3rem;
   }
 }
 
@@ -613,5 +622,15 @@
   }
   #contact .cont-img {
     width: 100%;
+  }
+  #foot .col {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  #foot .col:nth-child(2) {
+    padding-left: 0;
+  }
+  #foot .col:nth-child(4) {
+    padding-left: 1.3rem;
   }
 }
